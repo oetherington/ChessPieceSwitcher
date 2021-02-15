@@ -11,6 +11,21 @@ This extensions is licensed under the GNU AGPL v3.
 
 ![Sample video](sample.gif)
 
-### Building
+## Installation
+
+The extension is compatible with both Firefox and Chrome.
+
+First, click "code" above and download as a zip and unzip (or clone if you
+already have git installed).
+
+In Firefox, go to `about:debugging`, click "This Firefox", "Load Temporary
+Add-On", and select any file in the unzipped directory.
+
+In Chrome, go to `chrome://extensions`, click "Load unpacked" and selected he
+unzipped folder itself.
+
+Voila!
+
+## Building
 
 Simply run `web-ext build`
