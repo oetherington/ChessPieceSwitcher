@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			html {
+				text-align: center;
+				background: #22201B;
+				color: #bababa;
+				font-family: "Noto-Sans", Sans-Serif;
+			}
+			.hidden {
+				display: none;
+			}
+			#footer p {
+				font-size: 0.6em;
+				color: #ccc;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<h3>LichessPieceSwitcher</h3>
+		</div>
+
+		<div id="popup-content">
+
+			<div>
+				<label for="pawn-select">Pawn &rarr;</label>
+				<select id="pawn-select">
+					<option value="pawn" selected>Pawn</option>
+					<option value="knight">Knight</option>
+					<option value="bishop">Bishop</option>
+					<option value="rook">Rook</option>
+					<option value="queen">Queen</option>
+					<option value="king">King</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="knight-select">Knight &rarr;</label>
+				<select id="knight-select">
+					<option value="pawn">Pawn</option>
+					<option value="knight">Knight</option>
+					<option value="bishop">Bishop</option>
+					<option value="rook" selected>Rook</option>
+					<option value="queen">Queen</option>
+					<option value="king">King</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="bishop-select">Bishop &rarr;</label>
+				<select id="bishop-select">
+					<option value-"pawn">Pawn</option>
+					<option value="knight" selected>Knight</option>
+					<option value="bishop">Bishop</option>
+					<option value="rook">Rook</option>
+					<option value="queen">Queen</option>
+					<option value="king">King</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="rook-select">Rook &rarr;</label>
+				<select id="rook-select">
+					<option value="pawn">Pawn</option>
+					<option value="knight">Knight</option>
+					<option value="bishop" selected>Bishop</option>
+					<option value="rook">Rook</option>
+					<option value="queen">Queen</option>
+					<option value="king">King</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="queen-select">Queen &rarr;</label>
+				<select id="queen-select">
+					<option value="pawn">Pawn</option>
+					<option value="knight">Knight</option>
+					<option value="bishop">Bishop</option>
+					<option value="rook">Rook</option>
+					<option value="queen">Queen</option>
+					<option value="king" selected>King</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="king-select">King &rarr;</label>
+				<select id="king-select">
+					<option value="pawn">Pawn</option>
+					<option value="knight">Knight</option>
+					<option value="bishop">Bishop</option>
+					<option value="rook">Rook</option>
+					<option value="queen" selected>Queen</option>
+					<option value="king">King</option>
+				</select>
+			</div>
+
+			<br>
+
+			<div>
+				<button id="apply-button">Apply</button>
+			</div>
+
+			<div>
+				<button id="reset-button">Reset</button>
+			</div>
+		</div>
+
+		<div id="error-content" class="hidden">
+			<p>Can't switch pieces on this page!</p>
+			<p>Try somewhere else!</p>
+		</div>
+
+		<div id="footer">
+			<p>github.com/oetherington/LichessPieceSwitcher</p>
+		</div>
+
+		<script src="browser-polyfill.js"></script>
+		<script src="lps.js"></script>
+	</body>
+
+</html>
