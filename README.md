@@ -21,7 +21,11 @@ already have git installed).
 In Firefox, go to `about:debugging`, click "This Firefox", "Load Temporary
 Add-On", and select any file in the unzipped directory.
 
+<<<<<<< HEAD
 In Chrome, go to `chrome://extensions`, click "Load unpacked" and select the
+=======
+In Chrome, go to `chrome://extensions`, click "Load unpacked" and selected he
+>>>>>>> f591b3a9b63207dac71afa21a2c788a9cebbf804
 unzipped folder itself.
 
 Voila!
