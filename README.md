@@ -7,7 +7,7 @@ your end. Why? That's a very good question...
 I am not responsible for any ELO losses or brain aneurysms that you may
 experience as a result of using this extension.
 
-This extensions is licensed under the GNU AGPL v3.
+This extension is licensed under the GNU AGPL v3.
 
 ![Sample video](screenshots/sample.gif)
 
@@ -15,7 +15,7 @@ This extensions is licensed under the GNU AGPL v3.
 
 This add-on is available to download for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/chesspieceswitcher/).
 
-It's currently awaiting approval in for Chrome and must be installed manually.
+It's currently awaiting approval in for Chrome so must be installed manually.
 
 ## Manual Installation
 
