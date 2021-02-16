@@ -53,7 +53,7 @@
 	}
 
 	function init() {
-		console.log("Initialising LichessPieceSwitcher...");
+		console.log("Initialising ChessPieceSwitcher...");
 
 		if (isLichess()) {
 			site = "lichess";
@@ -85,7 +85,7 @@
 		if (!site)
 			init();
 
-		console.log("Applying LichessPieceSwitcher... (site=" + site + ")");
+		console.log("Applying ChessPieceSwitcher... (site=" + site + ")");
 
 		var css = "";
 
