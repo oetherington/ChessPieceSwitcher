@@ -107,15 +107,39 @@
 			<div>
 				<button id="reset-button">Reset</button>
 			</div>
+
+			<br>
+
+			<div>
+				<fieldset>
+					<legend>Randomizer</legend>
+
+					<input type="checkbox" id="include-pawns">
+					<label for="include-pawns">Include pawns</label>
+
+					<br>
+
+					<input type="checkbox" id="allow-duplicates">
+					<label for="allow-duplicates">Allow duplicates</label>
+
+					<br>
+					<br>
+
+					<button id="randomize">Randomize</button>
+				</fieldset>
+			</div>
 		</div>
 
 		<div id="error-content" class="hidden">
-			<p>Can't switch pieces on this page!</p>
-			<p>Try somewhere else!</p>
+			<p>Site is invalid</p>
+			<p>Please visit lichess.org or chess.com</p>
 		</div>
+
+		<br>
 
 		<div id="footer">
 			<p>github.com/oetherington/LichessPieceSwitcher</p>
+			<p>www.etherington.xyz</p>
 		</div>
 
 		<script src="browser-polyfill.js"></script>

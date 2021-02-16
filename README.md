@@ -9,7 +9,7 @@ experience as a result of using this extension.
 
 This extensions is licensed under the GNU AGPL v3.
 
-![Sample video](sample.gif)
+![Sample video](screenshots/sample.gif)
 
 ## Installation
 
