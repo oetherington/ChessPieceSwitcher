@@ -1,8 +1,8 @@
-# LichessPieceSwitcher
+# ChessPieceSwitcher
 
-A browser extension for switching up the pieces on Lichess. Note that the game
-isn't effected, only the sprites that you see on your end. Why? That's a very
-good question...
+A browser extension for switching around the piece sprites on Lichess and
+Chess.com. Note that the game isn't effected, only the sprites that you see on
+your end. Why? That's a very good question...
 
 I am not responsible for any ELO losses or brain aneurysms that you may
 experience as a result of using this extension.
@@ -12,6 +12,12 @@ This extensions is licensed under the GNU AGPL v3.
 ![Sample video](screenshots/sample.gif)
 
 ## Installation
+
+This add-on is available to download for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/chesspieceswitcher/).
+
+It's currently awaiting approval in for Chrome and must be installed manually.
+
+## Manual Installation
 
 The extension is compatible with both Firefox and Chrome.
 
@@ -26,6 +32,6 @@ unzipped folder itself.
 
 Voila!
 
-## Building
+## Packaging
 
-Simply run `web-ext build`
+Simply run `./package.sh`

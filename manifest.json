@@ -1,10 +1,10 @@
 {
 
-  "description": "Switch pieces on lichess",
+  "description": "Switch around piece sprites on lichess and chess.com",
   "manifest_version": 2,
-  "name": "LichessPieceSwitcher",
+  "name": "ChessPieceSwitcher",
   "version": "1.0",
-  "homepage_url": "https://github.com/oetherington/LichessPieceSwitcher",
+  "homepage_url": "https://github.com/oetherington/ChessPieceSwitcher",
   "icons": {
     "48": "icons/icon-48.png",
     "96": "icons/icon-96.png",
@@ -17,7 +17,7 @@
 
   "browser_action": {
     "default_icon": "icons/icon-48.png",
-    "default_title": "LichessPieceSwitcher",
+    "default_title": "ChessPieceSwitcher",
     "default_popup": "popup/lps.html"
   }
 
