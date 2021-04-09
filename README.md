@@ -13,9 +13,7 @@ This extension is licensed under the GNU AGPL v3.
 
 ## Installation
 
-This add-on is available to download for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/chesspieceswitcher/).
-
-It's currently awaiting approval in for Chrome so must be installed manually.
+This add-on is available to download for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/chesspieceswitcher/) or [Chrome](https://chrome.google.com/webstore/detail/lichesspieceswitcher/koifaekonhpknbmkbgcacnfcplmhaehn).
 
 ## Manual Installation
 
